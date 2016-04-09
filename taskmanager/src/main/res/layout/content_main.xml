@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#35ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.taiji.www.taskmanager.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/Button"
+        android:text="任务管理"
+        android:layout_marginLeft="10dp"
+        android:background="#25dd99" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/Button2"
+        android:text="任务反馈"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Button"
+        android:layout_toEndOf="@+id/Button"
+        android:background="#ea4e4e" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/Button3"
+        android:text="个人设置"
+        android:layout_below="@+id/Button"
+        android:layout_alignLeft="@+id/Button"
+        android:layout_alignStart="@+id/Button"
+        android:background="#854de5" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/Button4"
+        android:background="#e848cd"
+        android:text="推荐安装"
+        android:layout_alignTop="@+id/Button3"
+        android:layout_toRightOf="@+id/Button3"
+        android:layout_toEndOf="@+id/Button3" />
+</RelativeLayout>
